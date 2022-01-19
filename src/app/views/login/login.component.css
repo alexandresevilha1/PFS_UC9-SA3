@@ -1,0 +1,94 @@
+.voltar {
+    opacity: 70%;
+    width: 120px;
+    height: 50px;
+    border: 0.5px solid black;
+    background: #A9A9A9;
+    box-shadow: 0 0 0 1px #1C1C1C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.voltar a {
+    text-transform: uppercase;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.tudo {
+    display: flex;
+    margin-left: 20em;
+}
+
+.agrupado {
+    margin-top: 20em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titulo {
+    margin-bottom: 1em;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#subtitulo {
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.grupo {
+    opacity: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 18em;
+    margin-left: 30em;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    background: #A9A9A9;
+    box-shadow: 0 0 0 1px #1C1C1C;
+    text-transform: uppercase;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.campo {
+    padding: 0.5em;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5em;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#botao {
+    opacity: 70%;
+    margin-left: 50em;
+    margin-top: 1em;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    background: #A9A9A9;
+    box-shadow: 0 0 0 1px #1C1C1C;
+    text-transform: uppercase;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#botao:hover {
+    background-color: #FF4500;
+    color: white;
+}
