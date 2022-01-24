@@ -9,6 +9,8 @@ import { LoginComponent } from './views/login/login.component';
 import { FooterComponent } from './views/footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BannerComponent } from './views/banner/banner.component';
+import { CardprodutosComponent } from './views/cardprodutos/cardprodutos.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -17,12 +19,14 @@ import { BannerComponent } from './views/banner/banner.component';
     HeaderComponent,
     LoginComponent,
     FooterComponent,
-    BannerComponent
+    BannerComponent,
+    CardprodutosComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as $ from "jquery"
 
 @Component({
   selector: 'app-header',
@@ -13,5 +14,17 @@ export class HeaderComponent implements OnInit {
   }
 
 }
+
+$(document).ready(function(){
+  $("#destaque").click(function(){
+      $("#menuDestaques").toggleClass("ativado")
+  })
+})
+
+$(document).ready(function(){
+  $("#configuracoesHeader").click(function(){
+      $("#menuConfiguracoes").toggleClass("ativado")
+  })
+})
 
 

@@ -1,0 +1,14 @@
+/* BANNER */
+.areaBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    width: 70em;
+    height: 40em;
+    margin-left: 20%;
+}
+
+.banner {
+    height: 100%;
+}

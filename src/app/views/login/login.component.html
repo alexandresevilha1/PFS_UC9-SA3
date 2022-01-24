@@ -1,21 +1,14 @@
 <body>
-    <div class="voltar">
-        <a routerLink="">Pagina Inicial</a>
-    </div>
    <section class="tudo">
-       <div class="agrupado">
-           <h1 id="titulo"><strong>Faça seu login!!!</strong></h1>
-           <p id="subtitulo"><strong>entre e fique conosco!</strong></p>
-       </div>
-       <form action="">
+       <form #loginForm="ngForm" (ngSubmit)="onSubmit()">
            <fieldset class="grupo">
                <div class="campo">
                    <label for="">Login</label>
-                   <input type="text" name="nome" id="nome" required>
+                   <input type="text" name="nome" id="nome" placeholder="Nome..." [(ngModel)]="loginModel.email" required>
                </div>
                <div class="campo">
                    <label for="">Senha</label>
-                   <input type="password" name="senha" id="senha" required>
+                   <input type="password" name="senha" id="senha" placeholder="Sua senha..." [(ngModel)]="loginModel.password" required>
                </div>
                <div class="links" >
                    <a href="">esqueci minha senha</a>
@@ -23,7 +16,7 @@
                </div>
                
            </fieldset>
-           <button id="botao" type="submit">Enviar</button>
+           <input id="botao-enviar" type="submit" value="fazer login">
        </form>
    </section>
 </body>
