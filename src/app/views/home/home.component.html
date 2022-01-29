@@ -27,8 +27,11 @@
         </nav>
     </div>
     <div id="espaço-produtos" class="produtos">
-        <div class="cardprodutos">
-            <app-cardprodutos></app-cardprodutos>
+        <div *ngFor="let produtos of listaProdutos" class="cardprodutos">
+           <img src="/assets/img/produtos.png" alt="">
+           <h1>{{produtos.titulo}}</h1>
+           <p>{{produtos.preco}}</p>
+           <p>{{produtos.descricao}}</p>
         </div>
     </div >
     <div class="botoes">

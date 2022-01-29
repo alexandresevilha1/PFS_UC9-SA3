@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "email": "ale@gmail.com",
+      "password": "$2a$10$0e4OBth5czTUQidpBOQcvux0oUgQVpGxjNrTs7FklzjEktkt1lhy2",
+      "nome": "alex",
+      "id": 1
+    }
+  ],
+  "produtos": [
+    {
+      "id": "1",
+      "imagem": "assets/img/produtos.png",
+      "titulo": "Produto",
+      "preco": "R$100,00",
+      "descricao:": "Incrível"
+    },
+    {
+      "id": "2",
+      "imagem": "assets/img/produtos.png",
+      "titulo": "Produto",
+      "preco": "R$200,00",
+      "descricao:": "Espetacular"
+    }
+  ]
+}

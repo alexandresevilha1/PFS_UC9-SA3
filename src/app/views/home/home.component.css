@@ -103,3 +103,27 @@
     color: white;
     text-shadow:2px 2px black;
 }
+
+.cardprodutos{
+    height: 350px;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    margin: 3em;
+    border: 1px solid black ;
+    
+}
+
+.cardprodutos img {
+    width: 180px;
+    
+}
+
+.cardprodutos img:hover {
+    transform:scaleY(1.1);
+    transform:scaleX(1.1);
+}
+
+.cardprodutos p1 {
+    font-size: 15px;
+}
