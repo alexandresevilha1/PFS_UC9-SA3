@@ -5,6 +5,12 @@
       "password": "$2a$10$0e4OBth5czTUQidpBOQcvux0oUgQVpGxjNrTs7FklzjEktkt1lhy2",
       "nome": "alex",
       "id": 1
+    },
+    {
+      "email": "abcd@gmail.com",
+      "password": "123456",
+      "nome": "alex",
+      "id": 2
     }
   ],
   "produtos": [
